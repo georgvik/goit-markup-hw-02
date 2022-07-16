@@ -1,0 +1,163 @@
+:root {
+    --color-one:#2196F3;
+    --color-title:#000000;
+    --color-bg:#F5F4FA;
+    --color-bgr-business:#2F303A;
+    --color-text:#FFFFFF;
+    --color-heder-tel:#757575;
+    --color-nav:#212121;
+    }
+    body {
+        width: 1600px;
+        font-family:Roboto, sans-serif;
+        color: var(--color-nav);
+        background-color: var(--color-text);
+               
+    }
+   
+    .logo-left {
+        color: var(--color-one);
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+    }
+    .logo-right{
+        color: var(--color-title);
+        font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            letter-spacing: 0.03em;
+    }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.business {
+    background-color: var(--color-bgr-business);
+}
+.business-title {
+    color:var(--color-text);
+            width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+.hiden-title {
+display: none;
+}
+.heder-nav:hover,
+.heder-nav:focus,
+.heder-tel:focus,
+.heder-tel:hover {
+ color: var(--color-one);
+ 
+}
+.heder-nav {
+    color: var(--color-nav);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.33;
+        letter-spacing: 0.02em;
+}
+.heder-tel {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.33;
+        letter-spacing: 0.02em;
+        color: var(--color-heder-tel);
+
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: var(--color-one);
+    color: var(--color-text);
+       
+}
+.button-portfolio {
+    cursor: pointer;
+    background-color: var(--color-bg);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+   
+}
+.button-service:hover,
+.button-service:focus {
+        background: #188CE8;
+        /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px; */
+}
+.button-service {
+    background-color: var(--color-one);
+    color: var(--color-text);
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.advant-list h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.33;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-nav);
+}
+.advant-list p {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--color-heder-tel);
+}
+.our-work,.our-team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.7;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--color-mav);
+}
+.our-team-list h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--color-mav);
+}
+.our-team-list p {
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--color-heder-tel);
+}
+.our-portfolio h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-mav);
+}
+.our-portfolio p {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--color-heder-tel);
+}
